@@ -1,5 +1,5 @@
 .text{
-  top: -90%;
+  top: -80%;
   position: relative;
   text-align: center;
   background: #f7f4ef;
@@ -23,7 +23,7 @@ p{
 @media (max-width: 600px){
   .text{
     margin: 0 7%;
-    top: -85%
+    top: -90%
     font-size: 10px;
   }
   
