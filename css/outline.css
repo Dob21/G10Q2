@@ -21,5 +21,19 @@ p{
 }
 
 @media (max-width: 600px){
+  .text{
+    margin: 0 7%;
+    top: -85%
+    font-size: 10px;
+  }
   
+  .header{
+    border-bottom: 3px solid #573425;
+    padding: 5px;
+    margin: 0 13px;
+  }
+  
+  p{
+    margin: 7px;
+  }
 }
