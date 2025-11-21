@@ -24,6 +24,7 @@
   display: flex;
   justify-content: center;
   padding: 10px;
+  gap: 10px;
 }
 
 .img1{
@@ -45,16 +46,6 @@
   
   .content{
     flex-direction: column;
-  }
-  
-  .content1{
-  border-bottom: 1.5px solid #dda49f;
-  border-right: none;
-  }
-  
-  .content2{
-  border-top: 1.5px solid #dda49f;
-  border-left: none;
   }
   
   .img1{
