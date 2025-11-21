@@ -100,4 +100,5 @@ input[type="checkbox"]{
 
 .logo{
   float: right;
+  z-index: 997;
 }
