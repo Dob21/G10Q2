@@ -39,7 +39,7 @@ p{
 
 @media (max-width: 600px){
   .card{
-    top: -85%;
+    top: -90%;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
