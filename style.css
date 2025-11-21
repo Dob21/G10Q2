@@ -12,6 +12,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   height: calc(105vh - 80px);
+  background-position: center;
 }
 
 .wrapper{
