@@ -5,6 +5,7 @@
   top: -80%;
   position: relative;
   filter: drop-shadow(0px 0px 15px black);
+  font-size: 13px;
 }
 
 .cardimg{
@@ -24,7 +25,6 @@
   border-left: none;
   background: #faede4;
   color: #573425;
-  font-size: 13px;
 }
 
 .header{
