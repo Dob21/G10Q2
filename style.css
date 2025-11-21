@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Sans-Serif;
+}
+
+body{
+  background-image: url('img/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(105vh - 80px);
+}
+
+.wrapper{
+  height: 100%;
+  width: 330px;
+  position: relative;
+  z-index: 998;
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+
+.menubtn{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  height: 45px;
+  width: 45px;
+  z-index: 999;
+  color: black;
+  background: #fff;
+  border: 1px solid #f9f9f9;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 45px;
+  cursor: pointer;
+  font-size: 23px;
+  transition: all 0.3s ease;
+}
+
+#btn:checked ~ .menubtn{
+  left: 247px;
+}
+
+#btn:checked ~ .menubtn i:before{
+  content: "\f00d";
+}
+
+.sidebar{
+  position: fixed;
+  height: 100%;
+  width: 270px;
+  background: #ffffff;
+  opacity: 0.85;
+  left: -270px;
+  transition: all 0.3s ease;
+}
+
+#btn:checked ~ .sidebar{
+  left: 0;
+}
+
+.title{
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 65px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.items{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  list-style: none;
+}
+
+.items li{
+  padding-left: 40px;
+  line-height: 50px;
+}
+
+.items li a{
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.logo{
+  float: right;
+}

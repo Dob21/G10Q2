@@ -1,0 +1,25 @@
+.text{
+  top: -80%;
+  position: relative;
+  text-align: center;
+  background: #f7f4ef;
+  margin: 0 15%;
+  border-radius: 25px;
+  border: 5px solid #573425;
+  padding-bottom: 15%;
+  filter: drop-shadow(0px 0px 15px black);
+  color: #573425;
+}
+.header{
+  border-bottom: 3px solid #573425;
+  padding: 10px;
+  margin: 0 25px;
+}
+
+p{
+  margin: 15px;
+}
+
+@media (max-width: 600px){
+  
+}
