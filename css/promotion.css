@@ -16,20 +16,14 @@
   margin: 0 25px;
 }
 
+.text{
+  padding: 1%;
+}
+
 .content{
   display: flex;
   justify-content: center;
   padding: 10px;
-}
-
-.content1{
-  border-right: 1.5px solid #dda49f;
-  padding: 5px;
-}
-
-.content2{
-  border-left: 1.5px solid #dda49f;
-  padding: 5px;
 }
 
 .img1{
